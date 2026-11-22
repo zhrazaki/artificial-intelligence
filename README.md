@@ -51,12 +51,3 @@ classification.
   are **not committed**; each README explains how to obtain and lay them out,
   with small committed samples where useful.
 
-## 🔗 Standalone Repositories
-
-These projects are also published as independent repositories with full git
-history:
-
-[ai-blood-cell-classification](https://github.com/zhrazaki/ai-blood-cell-classification) ·
-[ai-decision-tree-classification](https://github.com/zhrazaki/ai-decision-tree-classification) ·
-[ai-qlearning-mountain-car](https://github.com/zhrazaki/ai-qlearning-mountain-car) ·
-[ai-genetic-algorithm-minimax](https://github.com/zhrazaki/ai-genetic-algorithm-minimax)
