@@ -8,8 +8,8 @@ algorithm** that evolves a melody to match a target song, and a **minimax
 
 - **Course:** Artificial Intelligence
 - **Institution:** School of Electrical and Computer Engineering, University of Tehran
-- **Deliverable:** Computer Assignment 2 (CA2), two Python-kernel Jupyter
-  notebooks: `Genetic/Genetic.ipynb` and `MiniMax/MiniMax.ipynb`
+- **Format:** two executed Python-kernel
+  notebooks — `Genetic/Genetic.ipynb` and `MiniMax/MiniMax.ipynb`
 
 ## Project Overview
 
@@ -41,6 +41,14 @@ algorithm** that evolves a melody to match a target song, and a **minimax
 - Configurable evaluation functions to tune the AI's playing style.
 - A full **AI-vs-AI game loop** (WHITE minimax AI vs RED opponent) reporting
   the winner and move statistics.
+
+## 📈 Key Visualizations
+
+Selected output from the executed notebook — the full set of plots and
+training logs is embedded in the notebook itself.
+
+![GA target vs. best chromosome](figures/ga_target_vs_best_chromosome.png)
+*Target frequency sequence vs. the best evolved chromosome (same figure, as required by the assignment).*
 
 ## Mathematical and Statistical Methods
 
@@ -113,4 +121,4 @@ All findings below come from the executed notebooks.
 
 Assignment statements and starter code fragments are part of the course
 material; the GA implementation, alpha–beta search, evaluation heuristics,
-and generated melodies are the student's work for CA2.
+and generated melodies are the student's work for this project.

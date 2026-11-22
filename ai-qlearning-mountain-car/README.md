@@ -1,4 +1,4 @@
-# Q-Learning on MountainCar
+﻿# Q-Learning on MountainCar
 
 Tabular **Q-Learning** applied to the classic `MountainCar-v0` environment
 (gymnasium), with discretized state space, multiple ε-decay strategies,
@@ -8,8 +8,7 @@ value-function visualization, and a reward-shaping bonus.
 
 - **Course:** Artificial Intelligence
 - **Institution:** School of Electrical and Computer Engineering, University of Tehran
-- **Deliverable:** Computer Assignment 3 (CA3), single Python-kernel notebook
-  (`CA3.ipynb`)
+- **Format:** executed Python-kernel notebook (`qlearning_mountain_car.ipynb`)
 
 ## Project Overview
 
@@ -21,6 +20,26 @@ value-function visualization, and a reward-shaping bonus.
 | Part 4 | Experiments: ε strategies (exponential decay vs. fixed) and discretization granularity |
 | Part 5 | 3D visualization of the learned value function |
 | Part 6 (Bonus) | Reward shaping |
+
+## 📈 Key Visualizations
+
+Selected outputs from the committed notebook — the full set of plots, logs
+and metrics is embedded in the notebook itself.
+
+![Training curves](figures/training_curves.png)
+*Training progress over 100,000 episodes: episode rewards, 100-episode moving average and the ε schedule.*
+
+![ε strategies](figures/epsilon_strategy_experiments.png)
+*Comparison of ε strategies (exponential decay vs. fixed) at the same episode budget.*
+
+![Discretization granularity](figures/discretization_experiments.png)
+*Effect of the state-grid granularity on learning performance.*
+
+![3D value function](figures/value_function_3d.png)
+*Learned value function over the discretized (position, velocity) state space.*
+
+![Reward shaping](figures/reward_shaping.png)
+*Reward-shaping (bonus) experiment: learning curves under shaped rewards.*
 
 ## Methods
 
@@ -45,7 +64,7 @@ value-function visualization, and a reward-shaping bonus.
 ```text
 ai-qlearning-mountain-car/
 ├── README.md
-├── CA3.ipynb          # notebook with training logs, plots, and evaluations
+├── qlearning_mountain_car.ipynb          # notebook with training logs, plots, and evaluations
 └── requirements.md
 ```
 
@@ -53,7 +72,7 @@ ai-qlearning-mountain-car/
 
 ```bash
 pip install gymnasium numpy matplotlib
-jupyter notebook CA3.ipynb
+jupyter notebook qlearning_mountain_car.ipynb
 ```
 
 - No external data files are needed; the environment is created with
@@ -92,4 +111,4 @@ All findings below come from the executed notebook.
 
 Assignment statement, part structure, and point breakdown are course
 material; the agent implementation, experiments, and analysis are the
-student's work for CA3.
+student's work for this project.

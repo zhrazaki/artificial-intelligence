@@ -1,4 +1,4 @@
-# Environment & Dependencies — ai-qlearning-mountain-car
+﻿# Environment & Dependencies — ai-qlearning-mountain-car
 
 Python-kernel notebook. No `requirements.txt` is committed; the environment
 is documented here.

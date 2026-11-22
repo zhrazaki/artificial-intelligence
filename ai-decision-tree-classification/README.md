@@ -1,4 +1,4 @@
-# Decision Trees from Scratch — Four Classification Tasks
+﻿# Decision Trees from Scratch — Four Classification Tasks
 
 A from-scratch **decision tree classifier** (entropy / information gain) plus
 scikit-learn model comparisons across four small classification tasks: spam
@@ -9,8 +9,7 @@ prediction, and student burnout.
 
 - **Course:** Artificial Intelligence
 - **Institution:** School of Electrical and Computer Engineering, University of Tehran
-- **Deliverable:** Computer Assignment 4 (CA4), single Python-kernel notebook
-  (`CA4.ipynb`)
+- **Format:** executed Python-kernel notebook (`decision_tree_classification.ipynb`)
 
 ## Project Overview
 
@@ -48,7 +47,7 @@ its own dataset in [`data/`](data/):
 ```text
 ai-decision-tree-classification/
 ├── README.md
-├── CA4.ipynb          # fully executed notebook (all outputs embedded)
+├── decision_tree_classification.ipynb          # fully executed notebook (all outputs embedded)
 ├── requirements.md
 └── data/              # four CSV datasets (synthetic, anonymized)
     ├── daneshchat_logs.csv
@@ -64,7 +63,7 @@ the repository root as-is.
 
 ```bash
 pip install numpy pandas scikit-learn matplotlib
-jupyter notebook CA4.ipynb
+jupyter notebook decision_tree_classification.ipynb
 ```
 
 - Run top to bottom from the repository root (paths are relative).
@@ -97,7 +96,7 @@ All numbers below are taken from the executed notebook's outputs.
 
 Assignment statement, task narratives, and starter/TODO templates are course
 material; the completed implementations, model comparisons, and analysis are
-the student's work for CA4.
+the student's work for this project.
 
 ## Compatibility Note
 
